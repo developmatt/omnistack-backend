@@ -12,6 +12,9 @@ routes.post('/boxes', BoxController.store);
 routes.post('/boxes/:id/files', multer(multerConfig).single('file'), FileController.store);
 
 routes.get('/boxes/:id', BoxController.show);
+routes.get('/status', (req, res) => {
+    return res.send('OK');
+})
 
 module.exports = routes;
 
