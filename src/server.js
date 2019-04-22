@@ -16,7 +16,7 @@ const server = require('http').Server(app);
     })
 }) */
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-d9tfd.mongodb.net/test?retryWrites=true', {
+mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-pea9w.mongodb.net/test?retryWrites=true', {
     useNewUrlParser: true
 });
 
